@@ -26,6 +26,7 @@ services:
       - temp_data:/data
 volumes:
   temp_data:
+    size: 5Gi
     driver: local
     driver_opts:
       type: none
